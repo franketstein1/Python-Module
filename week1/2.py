@@ -1,0 +1,5 @@
+name = input("Enter your full name:")
+part = name.split()
+a = part[0][0].upper()
+b = part[-1][0].upper()
+print(f"The initials are: {a},{b}")

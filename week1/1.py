@@ -1,0 +1,6 @@
+num = float(input("Enter a decimal number:"))
+num2 = int(num)
+num3 = str(num)
+print(f"Original: {num}")
+print(f"Integer: {num2}")
+print(f'String: "{num3}"')
