@@ -1,3 +1,3 @@
-a = input("Enter any string: ")
-b = a[::-1]
-print(b)
+text = input("Enter any string: ")
+rev = text[::-1]
+print(rev)

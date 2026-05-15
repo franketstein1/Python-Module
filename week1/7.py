@@ -1,7 +1,7 @@
-numbers = input("Enter numbers: ")
-list = numbers.split()
-for n in list:
-    num = int(n)
+line = input("Enter numbers: ")
+nums = line.split()
+for item in nums:
+    num = int(item)
     if num > 50:
         break
     if num % 5 == 0:
